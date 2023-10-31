@@ -1,0 +1,19 @@
+const arr = [2,3,5,2,9,7,1] , k = 3 (size of sub-array)
+find max SubArray
+
+2,3,5 --> 10
+3,5,2 --> 10,
+5,2,9 --> 16
+2,9,7 --> 18    // this is max
+9,7,1 --> 17
+
+// How we can achieve using sliding window?
+--> We only need to decrease first element of the window and add new element to the window
+
+# Identify?
+If in problem they ask for a SubArray 0r subString (largest, maximum, minimum) and there will be K i.e window size.
+There might be a chances that they will not give you a window size.
+
+# Types of Sliding window:-
+1. Fixed Size window (K should be provided)
+2. variable size window (K is not fixed or provided)
